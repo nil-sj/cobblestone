@@ -491,7 +491,7 @@
                 </div>
                 <div class="col col-12 col-lg-6">
                     <h3 class="contact-title">See CobbleStone in Action!</h3>
-                    <form class="big-text">
+                    <form class="big-text" name="contact" method="POST" data-netlify="true">
                         <div class="form-group row">
                             <div class="col col-12 col-sm-6">
                                 <input type="text" class="form-control" id="firstName" name="firstName"
@@ -530,6 +530,11 @@
                                     value="yes" />
                                 <label for="subscription" class="form-check-label">Send me industry news &
                                     articles</label>
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <div class="col col-12">
+                                <input type="hidden" name="form-name" value="contact">
                             </div>
                         </div>
                         <div class="form-group row">
