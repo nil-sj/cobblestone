@@ -1,5 +1,5 @@
-# cobblestone
-A landing page project done with Cobblestone Software
+# CobbleStone
+A landing page project done with CobbleStone Software
 
 Completed frontend is hosted at: https://cobblestone.codenil.online/
 
